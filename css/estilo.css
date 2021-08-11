@@ -146,4 +146,90 @@ header .header__buttons a:hover {
   display: block;
 }
 
+.precios {
+  background: url(../img/precios-bg.jpg), #727171;
+  background-size: cover;
+  background-position: center 0;
+  padding: 70px 0;
+}
+.precios__title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.2rem;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.precios__plan {
+  background: #fff;
+  text-align: center;
+  padding: 50px 0;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.precios__plan--green .precios__name, .precios__plan--green .precios__price {
+  color: #86b773;
+}
+.precios__plan--green .precios__button {
+  color: #86b773;
+  border: 2px solid #86b773;
+  transition: all 0.2s;
+}
+.precios__plan--green .precios__button:hover {
+  background: #86b773;
+  color: #fff;
+}
+.precios__plan--active {
+  background: #4c8dce;
+  color: #fff;
+}
+.precios__plan--active .precios__button {
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.2s;
+}
+.precios__plan--active .precios__button:hover {
+  background: #fff;
+  color: #4c8dce;
+}
+.precios__plan--orange .precios__name, .precios__plan--orange .precios__price {
+  color: #ddb146;
+}
+.precios__plan--orange .precios__button {
+  color: #ddb146;
+  border: 2px solid #ddb146;
+  transition: all 0.2s;
+}
+.precios__plan--orange .precios__button:hover {
+  background: #ddb146;
+  color: #fff;
+}
+.precios__name {
+  font-size: 3.2rem;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.precios__price {
+  font-weight: 300;
+  font-size: 4rem;
+}
+.precios__list {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.precios__list li {
+  font-size: 1.8rem;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede;
+}
+.precios__button {
+  width: 70%;
+  padding: 15px 0;
+  font-size: 1.6rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=estilo.css.map */
