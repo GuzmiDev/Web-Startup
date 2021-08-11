@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+header {
+  background: url(../img/bg.jpg), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+header .header__container {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .header__thumbnail {
+  display: block;
+}
+header .header__thumbnail img {
+  vertical-align: top;
+}
+header .header__nav {
+  text-align: right;
+  line-height: 50px;
+}
+header .header__nav a {
+  color: #fff;
+  margin-left: 50px;
+  font-size: 1.8rem;
+}
+header .header__text {
+  margin: 200px 0;
+  color: #fff;
+  text-align: center;
+}
+header .header__title, header .header__subtitle {
+  font-weight: 300;
+}
+header .header__title {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+header .header__subtitle {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+header .header__buttons a {
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 0;
+  font-weight: 600;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header .header__buttons a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #4f4f4f;
+}
+
+/*# sourceMappingURL=estilo.css.map */
