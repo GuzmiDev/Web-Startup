@@ -72,4 +72,78 @@ header .header__buttons a:hover {
   color: #4f4f4f;
 }
 
+.caracteristicas {
+  padding: 70px 0;
+}
+.caracteristicas__title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.2rem;
+  color: #000;
+  margin-bottom: 70px;
+}
+.caracteristicas__card {
+  text-align: center;
+}
+.caracteristicas__icon1 {
+  margin-bottom: 30px;
+}
+.caracteristicas__first-line {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.caracteristicas__paragraph {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+.fotos {
+  margin-bottom: 70px;
+}
+.fotos__container {
+  margin-bottom: 20px;
+}
+.fotos__img {
+  border-radius: 3px;
+  width: 100%;
+}
+.fotos__title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 3.2rem;
+  line-height: 32px;
+  font-weight: 300;
+}
+.fotos__title--blue {
+  color: #4facd3;
+}
+.fotos__title--orange {
+  color: #ddb156;
+}
+.fotos__paragraph {
+  line-height: 28px;
+}
+.fotos__texto--right {
+  text-align: right;
+}
+
+.clientes {
+  background: #2d353e;
+  padding: 40px 0;
+}
+.clientes__title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.2rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.clientes__cliente {
+  text-align: center;
+}
+.clientes__cliente a {
+  display: block;
+}
+
 /*# sourceMappingURL=estilo.css.map */
