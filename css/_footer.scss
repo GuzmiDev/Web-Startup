@@ -1,0 +1,58 @@
+footer {
+  .footer {
+    &__direccion {
+      background: #3c4045;
+      padding: 30px 0;
+      color: #fff;
+    }
+    &__title {
+      font-size: 3.2rem;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    &__logo {
+      width: 100%;
+      max-width: 282px;
+      min-width: 260px;
+    }
+    &__social {
+      text-align: center;
+      padding: 20px 0;
+      a {
+        padding: 10px;
+        display: inline-block;
+        margin: 0 20px;
+        width: 50px;
+        font-size: 22px;
+        color: #fff;
+        background: #000;
+        border-radius: 100px;
+      }
+      .facebook {
+        background: #3b5998;
+      }
+
+      .twitter {
+        background: #55acee;
+      }
+
+      .youtube {
+        background: #cd201f;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  footer {
+    .footer {
+      &__contact {
+        text-align: center;
+      }
+      &__logo-container {
+        text-align: center;
+      }
+    }
+  }
+}

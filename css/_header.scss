@@ -58,7 +58,7 @@ header {
         width: 235px;
         display: inline-block;
         text-align: center;
-        margin: 0 10px;
+        margin: 20px 10px;
         text-decoration: none;
         transition: all 0.15s;
         &:hover {
@@ -67,6 +67,17 @@ header {
           color: #4f4f4f;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__thumbnail {
+      text-align: center;
+    }
+    &__nav {
+      text-align: center !important;
     }
   }
 }

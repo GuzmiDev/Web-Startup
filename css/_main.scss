@@ -194,3 +194,11 @@
     text-align: right;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .precios {
+    &__precio {
+      margin-bottom: 30px;
+    }
+  }
+}
