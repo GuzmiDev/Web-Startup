@@ -23,6 +23,11 @@ header {
         color: #fff;
         margin-left: 50px;
         font-size: 1.8rem;
+        text-decoration: none;
+        transition: color 0.15s;
+        &:hover {
+          color: rgba(255, 255, 255, 0.4);
+        }
       }
     }
     &__text {
@@ -55,6 +60,7 @@ header {
         text-align: center;
         margin: 0 10px;
         text-decoration: none;
+        transition: all 0.15s;
         &:hover {
           text-decoration: none;
           background: #fff;

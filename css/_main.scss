@@ -169,3 +169,28 @@
     text-decoration: none;
   }
 }
+
+.reviews {
+  padding: 70px;
+  &__title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.2rem;
+    color: #4facd3;
+    margin-bottom: 70px;
+  }
+  &__customer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__container-img {
+    margin: 0px 20px;
+    img {
+      border-radius: 100%;
+    }
+  }
+  &__review--right {
+    text-align: right;
+  }
+}
